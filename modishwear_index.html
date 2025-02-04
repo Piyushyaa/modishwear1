@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ModishWear - Fashion Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-indigo-600 text-white p-4">
+    <div class="container mx-auto flex justify-between">
+      <div class="text-lg font-bold">ModishWear</div>
+      <div>
+        <a href="#home" class="mx-4">Home</a>
+        <a href="#products" class="mx-4">Products</a>
+        <a href="#contact" class="mx-4">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-indigo-500 text-white text-center py-20">
+    <h1 class="text-4xl font-bold">Welcome to ModishWear</h1>
+    <p class="text-xl mt-4">Explore the latest trends in fashion</p>
+    <a href="#products" class="bg-white text-indigo-600 px-6 py-2 rounded mt-6 inline-block">Shop Now</a>
+  </section>
+
+  <!-- Product Section -->
+  <section id="products" class="container mx-auto p-10">
+    <h2 class="text-3xl font-bold text-center mb-6">Our Collection</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-lg shadow-lg p-4">
+        <img src="https://via.placeholder.com/300" alt="Jacket" class="w-full h-60 object-cover rounded-t-lg">
+        <h3 class="font-semibold text-lg mt-2">Stylish Jacket</h3>
+        <p class="text-gray-500">Trendy & Comfortable</p>
+        <p class="font-bold text-xl">$49.99</p>
+        <button class="bg-indigo-600 text-white px-4 py-2 rounded mt-2">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-20">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+    <form class="max-w-lg mx-auto">
+      <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border border-gray-300 rounded"/>
+      <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border border-gray-300 rounded"/>
+      <textarea placeholder="Your Message" class="w-full p-3 mb-4 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="w-full bg-indigo-600 text-white p-3 rounded">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-600 text-white text-center py-4">
+    <p>&copy; 2025 ModishWear. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
